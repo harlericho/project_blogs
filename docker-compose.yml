@@ -1,0 +1,20 @@
+version: "3.0"
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=db_apiblogs
+    ports:
+      - "5432:5432"
+    expose:
+      - "5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
+volumes:
+  project_blogs:
+    driver: local
+    driver_opts:
+      device: /dev/sdb
