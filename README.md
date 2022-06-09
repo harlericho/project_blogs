@@ -66,14 +66,15 @@ Before starting the project <project_blogs>, you must follow these steps:
 Before starting the <project_blogs> project using <strong>Docker</strong>, you must follow these steps:
 
 1. Have docker and docker-compose installed.
-2. Run in the root of the project <project_blogs> the following command:
+2. Create a folder in the root of the project <project_blogs> with the name: "data".
+3. Run in the root of the project <project_blogs> the following command:
 
    ```
    docker-compose up -d
    ```
 
-3. Create an .env at the root of the project.
-4. In the .env file add the execution port of the project and the PostgreSQL credentials:
+4. Create an .env at the root of the project.
+5. In the .env file add the execution port of the project and the PostgreSQL credentials:
 
    ```
    PORT=9000
@@ -84,8 +85,8 @@ Before starting the <project_blogs> project using <strong>Docker</strong>, you m
    DB_PASSWORD=root
    ```
 
-5. Connect to PostgreSQL with the credentials that are in the .yml or .env file.
-6. Copy the database script found in path, to your PostgreSQL engine:
+6. Connect to PostgreSQL with the credentials that are in the .yml or .env file.
+7. Copy the database script found in path, to your PostgreSQL engine:
 
    > db/script.sql
 
