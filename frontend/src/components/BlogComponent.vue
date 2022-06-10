@@ -124,7 +124,6 @@ export default {
         .then((response) => response.json())
         .then((data) => {
           this.blogsList = data.data;
-          console.log(data.data);
         })
         .catch((error) => console.log(error));
     },

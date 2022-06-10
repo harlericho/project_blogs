@@ -35,13 +35,13 @@ To use the project on your machine, you must have the following installed:
 
 # 🛠️ BACKEND
 
-## 🌐 Database <project_blogs>
+## 🌐 Database (project_blogs)
 
 <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
 
-Before starting the project <project_blogs>, you must follow these steps:
+Before starting the project (project_blogs), you must follow these steps:
 
-1. You must have created a database <db_apiblogs>, on your local server.
+1. You must have created a database (db_apiblogs), on your local server.
 2. Create an .env at the root of the project.
 3. In the .env file add the execution port of the project and the PostgreSQL credentials:
 
@@ -58,16 +58,16 @@ Before starting the project <project_blogs>, you must follow these steps:
 
    > db/script.sql
 
-## 🌐 Database Docker <project_blogs>
+## 🌐 Database Docker (project_blogs)
 
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
 
-Before starting the <project_blogs> project using <strong>Docker</strong>, you must follow these steps:
+Before starting the (project_blogs) project using <strong>Docker</strong>, you must follow these steps:
 
 1. Have docker and docker-compose installed.
-2. Create a folder in the root of the project <project_blogs> with the name: "data".
-3. Run in the root of the project <project_blogs> the following command:
+2. Create a folder in the root of the project (project_blogs) with the name: "data".
+3. Run in the root of the project (project_blogs) the following command:
 
    ```
    docker-compose up -d
@@ -90,11 +90,11 @@ Before starting the <project_blogs> project using <strong>Docker</strong>, you m
 
    > db/script.sql
 
-## ☕ Requirements <project_blogs>
+## ☕ Requirements (project_blogs)
 
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 
-To start the project <project_blogs>, you must follow the following steps:
+To start the project (project_blogs), you must follow the following steps:
 
 1. Open a terminal at the root of the project of backend.
    > project_blogs/backend/
@@ -103,9 +103,9 @@ To start the project <project_blogs>, you must follow the following steps:
    npm install
    ```
 
-## 🚀 Start project <project_blogs>
+## 🚀 Start project (project_blogs)
 
-To start the project <project_blogs>, you must follow the following steps:
+To start the project (project_blogs), you must follow the following steps:
 
 - Open a terminal at the root of the project of backend.
 - Run the following command:
@@ -115,11 +115,11 @@ To start the project <project_blogs>, you must follow the following steps:
 
 # 🖼️ FRONTEND
 
-## ☕ Requirements <project_blogs>
+## ☕ Requirements (project_blogs)
 
 <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" />
 
-To start the project <project_blogs>, you must follow the following steps:
+To start the project (project_blogs), you must follow the following steps:
 
 1. Open a terminal at the root of the project of frontend.
    > project_blogs/frontend/
@@ -128,9 +128,9 @@ To start the project <project_blogs>, you must follow the following steps:
    npm install
    ```
 
-## 🚀 Start project <project_blogs>
+## 🚀 Start project (project_blogs)
 
-To start the project <project_blogs>, you must follow the following steps:
+To start the project (project_blogs), you must follow the following steps:
 
 - Open a terminal at the root of the project of frontend.
 - Run the following command:

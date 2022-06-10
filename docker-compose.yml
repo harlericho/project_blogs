@@ -13,8 +13,3 @@ services:
       - "5432"
     volumes:
       - ./data:/var/lib/postgresql/data
-volumes:
-  project_blogs:
-    driver: local
-    driver_opts:
-      device: /dev/sdb
