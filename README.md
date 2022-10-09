@@ -42,7 +42,7 @@ To use the project on your machine, you must have the following installed:
 Before starting the project (project_blogs), you must follow these steps:
 
 1. You must have created a database (db_apiblogs), on your local server.
-2. Create an .env at the root of the project.
+2. Create an .env at the root of the backend project.
 3. In the .env file add the execution port of the project and the PostgreSQL credentials:
 
    ```
@@ -56,7 +56,7 @@ Before starting the project (project_blogs), you must follow these steps:
 
 4. Copy the database script found in path, to your PostgreSQL engine:
 
-   > db/script.sql
+   > project_blogs/backend/db/script.sql
 
 ## 🌐 Database Docker (project_blogs)
 
@@ -73,7 +73,7 @@ Before starting the (project_blogs) project using <strong>Docker</strong>, you m
    docker-compose up -d
    ```
 
-4. Create an .env at the root of the project.
+4. Create an .env at the root of the backend project.
 5. In the .env file add the execution port of the project and the PostgreSQL credentials:
 
    ```
@@ -88,7 +88,7 @@ Before starting the (project_blogs) project using <strong>Docker</strong>, you m
 6. Connect to PostgreSQL with the credentials that are in the .yml or .env file.
 7. Copy the database script found in path, to your PostgreSQL engine:
 
-   > db/script.sql
+   > project_blogs/backend/db/script.sql
 
 ## ☕ Requirements (project_blogs)
 
@@ -96,9 +96,9 @@ Before starting the (project_blogs) project using <strong>Docker</strong>, you m
 
 To start the project (project_blogs), you must follow the following steps:
 
-1. Open a terminal at the root of the project of backend.
+1. Open a terminal at the root of the backend project.
    > project_blogs/backend/
-2. In the main root of the project of backend execute the following in your terminal:
+2. In the main root of the backend project execute the following in your terminal:
    ```
    npm install
    ```
@@ -107,7 +107,7 @@ To start the project (project_blogs), you must follow the following steps:
 
 To start the project (project_blogs), you must follow the following steps:
 
-- Open a terminal at the root of the project of backend.
+- Open a terminal at the root of the backend project.
 - Run the following command:
   ```
   npm run test
@@ -121,9 +121,9 @@ To start the project (project_blogs), you must follow the following steps:
 
 To start the project (project_blogs), you must follow the following steps:
 
-1. Open a terminal at the root of the project of frontend.
+1. Open a terminal at the root of the frontend project.
    > project_blogs/frontend/
-2. In the main root of the project of backend execute the following in your terminal:
+2. In the main root of the frontend project execute the following in your terminal:
    ```
    npm install
    ```
@@ -132,12 +132,12 @@ To start the project (project_blogs), you must follow the following steps:
 
 To start the project (project_blogs), you must follow the following steps:
 
-- Open a terminal at the root of the project of frontend.
+- Open a terminal at the root of the frontend project.
 - Run the following command:
   ```
   npm run serve
   ```
-- Open [http://localhost:8080](http://localhost:3000) to view it in your browser.
+- Open [http://localhost:8080](http://localhost:8080) to view it in your browser.
 
 <div align="center">
 
